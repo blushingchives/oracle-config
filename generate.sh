@@ -6,5 +6,8 @@ if [ -z $chain_name ]; then
     exit
 fi
 
-cat $chain_name/* > config.toml
+for file in $chain_name/*; do
+    cat "$file"
+    echo   # Add a newline after each file
+done > config.txt
 echo "SUCCESS: config.toml for $chain_name has been generated."
