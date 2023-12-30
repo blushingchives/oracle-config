@@ -9,5 +9,6 @@ fi
 for file in $chain_name/*; do
     cat "$file"
     echo   # Add a newline after each file
-done > config.txt
+    echo   # Add a newline after each file
+done > config.toml
 echo "SUCCESS: config.toml for $chain_name has been generated."
