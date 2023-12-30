@@ -6,5 +6,5 @@ if [ -z $chain_name ]; then
     exit
 fi
 
-cat ${BASH_SOURCE[0]}/$chain_name/* > config.toml
+cat $chain_name/* > config.toml
 echo "SUCCESS: config.toml for $chain_name has been generated."
