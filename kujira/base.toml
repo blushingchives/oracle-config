@@ -1,0 +1,39 @@
+gas_adjustment = 2.5
+gas_prices = "0.0034ukuji"
+enable_server = true
+enable_voter = true
+provider_timeout = "1000ms"
+
+history_db = "/var/tmp/feeder.db"
+
+[server]
+listen_addr = "0.0.0.0:7171"
+read_timeout = "20s"
+verbose_cors = true
+write_timeout = "20s"
+
+[account]
+address = "kujira1afdmlz80lhmyr44pr747qr6fggufq8rxz4kmg8"
+chain_id = "kaiyo-1"
+validator = "kujiravaloper10x9gykujqmhjyx0g9rnm63ee5pm0fpng864tny"
+prefix = "kujira"
+# Optional
+fee_granter = "kujira1vkje22mayn72r0a7kna6agv0sqm6k94ry9k6dd"
+
+[keyring]
+backend = "file"
+dir = "/home/kujioracle/.kujira"
+
+[rpc]
+grpc_endpoint = "localhost:9090"
+rpc_timeout = "100ms"
+tmrpc_endpoint = "http://localhost:26657"
+
+[telemetry]
+enable_hostname = true
+enable_hostname_label = true
+enable_service_label = true
+enabled = true
+global_labels = [["chain-id", "kaiyo-1"]]
+service_name = "price-feeder"
+type = "prometheus"

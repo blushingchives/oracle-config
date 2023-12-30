@@ -1,0 +1,29 @@
+[[provider_endpoints]]
+name = "fin"
+urls = [
+  "https://kaiyo-1.gigalixirapp.com"
+]
+
+[[provider_endpoints]]
+name = "osmosisv2"
+urls = [
+  "https://lcd.osmosis.zone",
+  "https://lcd-osmosis.blockapsis.com",
+  "https://api.osl.zone",
+  "https://lcd-osmosis.blockapsis.com"
+]
+
+[[provider_endpoints]]
+name = "finv2"
+urls = [
+  "https://lcd-kujira.mintthemoon.xyz",
+  "https://kujira-api.polkachu.com"
+]
+
+[[provider_endpoints]]
+name = "astroport_neutron"
+urls = [
+  "https://rest-kralum.neutron-1.neutron.org",
+  "https://neutron-api.lavenderfive.com",
+  "https://lcd-neutron.whispernode.com"
+]

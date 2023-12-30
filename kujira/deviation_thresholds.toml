@@ -1,0 +1,11 @@
+[[deviation_thresholds]]
+base = "USDT"
+threshold = "2"
+
+[[deviation_thresholds]]
+base = "KUJI"
+threshold = "2"
+
+[[deviation_thresholds]]
+base = "WHALE"
+threshold = "2"
