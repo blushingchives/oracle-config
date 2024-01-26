@@ -21,6 +21,13 @@ urls = [
 ]
 
 [[provider_endpoints]]
+name = "shade"
+urls = [
+  "https://secretnetwork-api.highstakes.ch",
+  "https://secretnetwork-api.lavenderfive.com"
+]
+
+[[provider_endpoints]]
 name = "astroport_neutron"
 urls = [
   "https://rest-kralum.neutron-1.neutron.org",
