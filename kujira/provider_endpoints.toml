@@ -1,36 +1,62 @@
 [[provider_endpoints]]
-name = "fin"
-urls = [
-  "https://kaiyo-1.gigalixirapp.com"
-]
+name = "astroport_neutron"
+url_set = "api_neutron"
 
 [[provider_endpoints]]
-name = "osmosisv2"
-urls = [
-  "https://lcd.osmosis.zone",
-  "https://lcd-osmosis.blockapsis.com",
-  "https://api.osl.zone",
-  "https://lcd-osmosis.blockapsis.com"
-]
+name = "fin"
+url_set = "fin"
 
 [[provider_endpoints]]
 name = "finv2"
-urls = [
-  "https://lcd-kujira.mintthemoon.xyz",
-  "https://kujira-api.polkachu.com"
-]
+url_set = "api_kujira"
+
+[[provider_endpoints]]
+name = "osmosisv2"
+url_set = "api_osmosis"
 
 [[provider_endpoints]]
 name = "shade"
-urls = [
-  "https://secretnetwork-api.highstakes.ch",
-  "https://secretnetwork-api.lavenderfive.com"
-]
+url_set = "api_secret"
 
 [[provider_endpoints]]
-name = "astroport_neutron"
+name = "uniswapv3"
+url_set = "rpc_ethereum"
+
+[url_set.fin]
 urls = [
-  "https://rest-kralum.neutron-1.neutron.org",
-  "https://neutron-api.lavenderfive.com",
-  "https://lcd-neutron.whispernode.com"
+    "https://kaiyo-1.gigalixirapp.com"
+]
+
+[url_set.osmosisv2]
+urls = [
+    "https://lcd.osmosis.zone", 
+    "https://lcd-osmosis.blockapsis.com", 
+    "https://api.osl.zone", 
+    "https://lcd-osmosis.blockapsis.com"
+]
+
+[url_set.finv2]
+urls = [
+    "https://lcd-kujira.mintthemoon.xyz", 
+    "https://kujira-api.polkachu.com"
+]
+
+[url_set.shade]
+urls = [
+    "https://secretnetwork-api.highstakes.ch", 
+    "https://secretnetwork-api.lavenderfive.com"
+]
+
+[url_set.rpc_ethereum]
+urls = [
+  "https://rpc.ankr.com/eth",
+  "https://ethereum.blockpi.network/v1/rpc/public",
+  "https://mainnet.infura.io/v3"
+]
+
+[url_set.astroport_neutron]
+urls = [
+    "https://rest-kralum.neutron-1.neutron.org", 
+    "https://neutron-api.lavenderfive.com", 
+    "https://lcd-neutron.whispernode.com"
 ]
