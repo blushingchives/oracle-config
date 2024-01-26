@@ -27,7 +27,7 @@ urls = [
     "https://kaiyo-1.gigalixirapp.com"
 ]
 
-[url_set.osmosisv2]
+[url_set.api_osmosis]
 urls = [
     "https://lcd.osmosis.zone", 
     "https://lcd-osmosis.blockapsis.com", 
@@ -35,13 +35,13 @@ urls = [
     "https://lcd-osmosis.blockapsis.com"
 ]
 
-[url_set.finv2]
+[url_set.api_kujira]
 urls = [
     "https://lcd-kujira.mintthemoon.xyz", 
     "https://kujira-api.polkachu.com"
 ]
 
-[url_set.shade]
+[url_set.api_secret]
 urls = [
     "https://secretnetwork-api.highstakes.ch", 
     "https://secretnetwork-api.lavenderfive.com"
@@ -54,7 +54,7 @@ urls = [
   "https://mainnet.infura.io/v3"
 ]
 
-[url_set.astroport_neutron]
+[url_set.api_neutron]
 urls = [
     "https://rest-kralum.neutron-1.neutron.org", 
     "https://neutron-api.lavenderfive.com", 
