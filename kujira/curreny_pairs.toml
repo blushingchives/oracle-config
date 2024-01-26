@@ -741,3 +741,10 @@ derivative_period = "30m"
 base = "WETH"
 quote = "USDC"
 providers = ["uniswapv3"]
+
+[[currency_pairs]]
+base = "SHD"
+quote = "MNTA"
+providers = ["finv2", "shade"]
+derivative = "twap"
+derivative_period = "30m"
