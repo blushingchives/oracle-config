@@ -734,3 +734,13 @@ quote = "MNTA"
 providers = ["finv2", "shade"]
 derivative = "twap"
 derivative_period = "30m"
+
+[[currency_pairs]]
+base = "TIA"
+quote = "USD"
+providers = ["coinbase", "kraken"]
+
+[[currency_pairs]]
+base = "TIA"
+quote = "USDT"
+providers = ["binance", "bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
