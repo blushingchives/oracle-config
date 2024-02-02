@@ -12,6 +12,7 @@ denoms = [
     "SOMM",
     "STARS",
     "STATOM",
+    "STKATOM",
     "STOSMO",
     "USK",
     "WETH",

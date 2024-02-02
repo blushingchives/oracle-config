@@ -22,6 +22,10 @@ url_set = "api_secret"
 name = "uniswapv3"
 url_set = "rpc_ethereum"
 
+[[provider_endpoints]]
+name = "dexter"
+url_set = "api_persistence"
+
 [url_set.fin]
 urls = [
     "https://kaiyo-1.gigalixirapp.com"
@@ -59,4 +63,12 @@ urls = [
     "https://rest-kralum.neutron-1.neutron.org", 
     "https://neutron-api.lavenderfive.com", 
     "https://lcd-neutron.whispernode.com"
+]
+
+[url_set.api_persistence]
+urls = [
+    "https://persistence-lcd.quantnode.tech",
+    "https://persistence-api.polkachu.com",
+    "https://api-persistence.cosmos-spaces.cloud",
+    "https://persistence-api.stakeandrelax.net"
 ]

@@ -570,6 +570,13 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
+base = "STKATOM"
+quote = "ATOM"
+providers = ["dexter", "osmosisv2", "shade"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
 base = "STOSMO"
 quote = "OSMO"
 providers = ["osmosisv2"]

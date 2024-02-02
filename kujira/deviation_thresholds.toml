@@ -13,3 +13,7 @@ threshold = "2"
 [[deviation_thresholds]]
 base = "STATOM"
 threshold = "2"
+
+[[deviation_thresholds]]
+base = "STKATOM"
+threshold = "2"
