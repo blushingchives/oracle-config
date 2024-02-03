@@ -7,6 +7,7 @@ denoms = [
     "NTRN",
     "QCKUJI",
     "QCMNTA",
+    "FUZN",
     "RLB",
     "SHD",
     "SOMM",
@@ -24,4 +25,4 @@ providers = 1
 
 [[provider_min_overrides]]
 denoms = ["KUJI", "RIO"]
-providers = 2
+providers = 1

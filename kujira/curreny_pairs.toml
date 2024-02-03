@@ -751,3 +751,10 @@ providers = ["coinbase", "kraken"]
 base = "TIA"
 quote = "USDT"
 providers = ["binance", "bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
+
+[[currency_pairs]]
+base = "FUZN"
+quote = "USK"
+providers = ["finv2"]
+derivative = "twap"
+derivative_period = "30m"
