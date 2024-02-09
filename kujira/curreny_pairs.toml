@@ -713,3 +713,13 @@ quote = "WETH"
 providers = ["uniswapv3"]
 derivative = "twap"
 derivative_period = "30m"
+
+[[currency_pairs]]
+base = "DYM"
+quote = "USD"
+providers = ["bitfinex", "kraken"]
+
+[[currency_pairs]]
+base = "DYM"
+quote = "USDT"
+providers = ["binance", "bitget", "bybit", "gate", "kucoin"]
