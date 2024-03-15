@@ -499,13 +499,6 @@ derivative_period = "30m"
 
 [[currency_pairs]]
 base = "RIO"
-quote = "ETH"
-providers = ["pancakev3_bsc"]
-derivative = "twap"
-derivative_period = "20m"
-
-[[currency_pairs]]
-base = "RIO"
 quote = "USDT"
 providers = ["okx"]
 
